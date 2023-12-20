@@ -1,0 +1,52 @@
+header {
+    background-image: url( hotel\ img.jpg);
+    background-size: cover;
+    display: grid;
+    justify-content: space-between;
+    height: 90vh;
+    color: white;
+}
+.navbar{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.navbar ul{
+    display: flex;
+    justify-content:space-between;
+    margin:10px;
+    padding:10px;
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    margin: 10px;
+    text-decoration-color: beige;
+    justify-content: space-between;
+}
+.navbar :active{
+    color: beige;
+}
+h2{
+    text-align: center;
+}
+.stay{
+    background-color: bisque;
+    display: flex;
+    margin: 10px;
+    padding: 10px;  
+}
+.stay a {
+    list-style: none;
+    color: lavenderblush;
+    text-align: center;
+    text-decoration: none;
+}
+img{
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
